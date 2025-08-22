@@ -1,0 +1,9 @@
+# Created at 2025-08-22T12:30:09.127
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [176cb90d2f64690488a2bcb4e8171fc6, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60545}, msedge: {msedgedriverVersion: 138.0.3351.109 (3e2a22a9de0..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60545/devtoo..., se:cdpVersion: 139.0.3405.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 176cb90d2f64690488a2bcb4e8171fc6
+

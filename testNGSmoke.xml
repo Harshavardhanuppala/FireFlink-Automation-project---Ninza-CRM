@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smokeSuite"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CreationImplementation.DataProviderAttribute"/>
+      <class name="CreationImplementation.TestMethodAttributes"/>
+      <class name="CreationImplementation.CreateProductTest"/>
+      <class name="CreationImplementation.CreateQuoteTest"/>
+      <class name="CreationImplementation.CreateLeadTest"/>
+      <class name="CreationImplementation.GetMultiRowDataFromExcel"/>
+      <class name="CreationImplementation.CreateCampaignTest"/>
+      <class name="CreationImplementation.AssertionsPractice"/>
+      <class name="CreationImplementation.CreateOpportunitiesTest"/>
+      <class name="CreationImplementation.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
