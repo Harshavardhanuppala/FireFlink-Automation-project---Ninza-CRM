@@ -22,7 +22,7 @@ public class CreateLeadTest extends BaseClass
 		leadsPage.clickOnCreateLeads();
 		
 		CreateLeadPage createLeadPage=new CreateLeadPage(driver);
-		createLeadPage.createLeadWithMandatoryInfo(driver, "sumit", "capgemini", "manager", "SOftware", "9876543214", "pending", "onclick=\"selectCampaign('CAM00t001', 'Campaigntest')\"");
+		createLeadPage.createLeadWithMandatoryInfo(driver, "sumit", "capgemini", "manager", "SOftware", "9876543214", "pending", "onclick=\"selectCampaign('CAM00001', 'Campaigntest')\"");
 		
 	}
 }

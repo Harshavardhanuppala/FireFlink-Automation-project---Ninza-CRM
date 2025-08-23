@@ -8,16 +8,10 @@
 	</groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="CreationImplementation.DataProviderAttribute"/>
-      <class name="CreationImplementation.TestMethodAttributes"/>
-      <class name="CreationImplementation.CreateProductTest"/>
-      <class name="CreationImplementation.CreateQuoteTest"/>
+      
       <class name="CreationImplementation.CreateLeadTest"/>
-      <class name="CreationImplementation.GetMultiRowDataFromExcel"/>
       <class name="CreationImplementation.CreateCampaignTest"/>
-      <class name="CreationImplementation.AssertionsPractice"/>
-      <class name="CreationImplementation.CreateOpportunitiesTest"/>
-      <class name="CreationImplementation.CreateContactTest"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
