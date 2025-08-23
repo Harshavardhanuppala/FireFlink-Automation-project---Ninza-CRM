@@ -68,6 +68,12 @@ public class CampaignsPage  extends WebDriverUtility
 	
 	public void clickOnCreateCampaignsPage()
 	{
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		clickOnWebElement(createCamapignButton);
 	}
 	

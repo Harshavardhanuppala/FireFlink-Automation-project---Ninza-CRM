@@ -2,12 +2,22 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeSuite"/>
+      </run>
+    </groups>
     <classes>
-      <class name="practice.TestNGPractice">
+      <class name="CreationImplementation.CreateCampaignTest">
         <methods>
-          <include name="sampleTest"/>
+          <include name="bsConfig"/>
+          <include name="bmconfig"/>
+          <include name="bcConfig"/>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="createCampaignTC_IN_001Test"/>
         </methods>
-      </class> <!-- practice.TestNGPractice -->
+      </class> <!-- CreationImplementation.CreateCampaignTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
