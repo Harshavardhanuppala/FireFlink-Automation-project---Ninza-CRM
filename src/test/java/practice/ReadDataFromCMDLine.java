@@ -12,7 +12,7 @@ public class ReadDataFromCMDLine
 		
 		String UN=System.getProperty("username");
 		System.out.println(UN);
-		
+		System.out.println("hi");
 		String Pass=System.getProperty("password");
 		System.out.println(Pass);
 	}
