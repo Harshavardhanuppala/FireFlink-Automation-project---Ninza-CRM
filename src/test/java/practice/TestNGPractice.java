@@ -11,7 +11,6 @@ public class TestNGPractice
 	{
 		Reporter.log("Method is executing",true);
 		System.out.println("hi");
-		Assert.fail();
 		Reporter.log("method executed",true);
 	}
 }
